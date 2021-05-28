@@ -1,13 +1,14 @@
-
-import './App.css';
-import Deshborad from './Components/Deshborad/Deshborad';
-import Home from './Components/Home/Home';
+import "./App.css";
+import Ariful from "./Components/Ariful/Ariful";
+import Deshborad from "./Components/Deshborad/Deshborad";
+import Home from "./Components/Home/Home";
 
 function App() {
   return (
     <div>
-     <Home></Home>
-     <Deshborad></Deshborad>
+      <Home></Home>
+      <Deshborad></Deshborad>
+      <Ariful></Ariful>
     </div>
   );
 }
